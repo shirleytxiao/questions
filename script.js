@@ -11,9 +11,9 @@ function showRandomString(level) {
   const randomString = getRandomString(level);
   document.body.innerHTML = `
     <div class="container">
-      <h1>Random String</h1>
+      <h1>Level ${level}</h1>
       <p>${randomString}</p>
-      <button id="backBtn">Back to Home</button>
+      <button id="backBtn">Back</button>
     </div>
   `;
 

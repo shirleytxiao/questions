@@ -1,16 +1,17 @@
 body {
   font-family: Arial, sans-serif;
-  background-color: #f4f4f4;
+  background-color: #fff;
   margin: 0;
   padding: 0;
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+  text-transform: uppercase;
 }
 
 .container {
-  background-color: #fff;
+  background-color: #b80012;
   padding: 2rem;
   border-radius: 5px;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
