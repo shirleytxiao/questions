@@ -7,8 +7,8 @@ function getRandomString(strings) {
   return strings[randomIndex];
 }
 
-function showRandomString(level) {
-  const randomString = getRandomString(level);
+function showRandomString(level, levelNum) {
+  const randomString = getRandomString(levelNum);
   document.body.innerHTML = `
     <div class="container">
       <h1>Level ${level}</h1>
@@ -24,13 +24,13 @@ function showRandomString(level) {
 }
 
 document.getElementById("level1").addEventListener("click", () => {
-  showRandomString(level1Strings);
+  showRandomString(level1Strings, 1);
 });
 
 document.getElementById("level2").addEventListener("click", () => {
-  showRandomString(level2Strings);
+  showRandomString(level2Strings, 2);
 });
 
 document.getElementById("level3").addEventListener("click", () => {
-  showRandomString(level3Strings);
+  showRandomString(level3String, 3);
 });

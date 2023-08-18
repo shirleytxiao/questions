@@ -1,5 +1,7 @@
 body {
   font-family: Arial, sans-serif;
+  text-transform: uppercase;
+  color: #fff;
   background-color: #fff;
   margin: 0;
   padding: 0;
@@ -7,7 +9,6 @@ body {
   align-items: center;
   justify-content: center;
   height: 100vh;
-  text-transform: uppercase;
 }
 
 .container {
@@ -19,6 +20,8 @@ body {
 }
 
 .buttons button {
+  font-family: Arial, sans-serif;
+  text-transform: uppercase;
   font-size: 18px;
   padding: 10px 20px;
   margin: 10px;
